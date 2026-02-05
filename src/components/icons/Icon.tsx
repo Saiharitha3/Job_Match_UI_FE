@@ -1,5 +1,3 @@
-import React from 'react';
-
 export type IconName =
   | 'pencil'
   | 'heart'
@@ -104,7 +102,7 @@ export default function Icon({ name, className = 'w-5 h-5', filled = false, colo
   }
 
   return (
-    <svg className={className} fill="none" stroke={strokeColor} viewBox="0 0 24 24" strokeWidth={1.5}>
+    <svg className={className} fill={fillColor} stroke={strokeColor} viewBox="0 0 24 24" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d={path} />
     </svg>
   );

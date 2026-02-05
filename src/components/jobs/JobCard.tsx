@@ -4,7 +4,6 @@ import MatchRing from './MatchRing';
 import TagPill from './TagPill';
 import { toggleLikedJob, applyToJob } from '../../utils/storage';
 import { showToast } from '../../utils/toast';
-import { useState } from 'react';
 import Icon from '../icons/Icon';
 
 interface JobCardProps {
